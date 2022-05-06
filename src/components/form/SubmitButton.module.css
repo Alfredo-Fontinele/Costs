@@ -1,12 +1,14 @@
 .btn {
+    margin-top: 20px;
     background-color: slateblue;
-    border: none;
     color: #FFF;
     font-weight: bold;
     padding: 17px;
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.5s;
+    cursor: pointer;
+    border: none;
 }
 
 .btn:hover {
