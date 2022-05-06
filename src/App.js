@@ -13,9 +13,7 @@ import Projects from './components/pages/Projects';
 function App() {
   return (
     <Router>
-      
       <Navbar/>
-
       <Container customClass="min_height">
         <Routes>
           <Route exact path="/" element={<Home/>}></Route>
@@ -25,7 +23,6 @@ function App() {
           <Route exact path="/newproject" element={<NewProject/>}></Route>
         </Routes>
       </Container>
-
       <Footer/>
     </Router>
   );

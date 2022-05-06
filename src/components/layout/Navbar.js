@@ -11,6 +11,7 @@ function Navbar() {
                 <Link to="/">
                     <img src={logo} alt="Logo Costs" title="Costs"/>
                 </Link>
+                <h1>Costs | Plataforma</h1>
                 <ul className={styles.list}>
                     <li className={styles.item}><Link to="/">Home</Link></li>
                     <li className={styles.item}><Link to="/projects">Projetos</Link></li>

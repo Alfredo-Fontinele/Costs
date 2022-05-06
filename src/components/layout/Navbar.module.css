@@ -5,6 +5,14 @@
     padding: 1em;
 }
 
+.navbar h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30vw;
+    position: static;
+}
+
 .list {
     display: flex;
     align-items: center;
@@ -12,7 +20,7 @@
 }
 
 .item {
-    margin-right: 1em; 
+    margin-right: 1.2em; 
 }
 
 .item a {
