@@ -4,6 +4,7 @@ import styles from './Navbar.module.css';
 import logo from '../../imgs/costs_logo.png'
 
 function Navbar() {
+
     return (
         <nav className={styles.navbar}>
             <Container>
