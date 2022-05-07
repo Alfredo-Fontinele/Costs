@@ -17,3 +17,15 @@ html, body, #root {
   /* background-color: rgb(26, 37, 49);  */
   color: #DDD; 
 }
+
+@media only screen and (max-width: 1130px) { 
+
+  body {
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

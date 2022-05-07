@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
     background-color: #222;
@@ -10,7 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30vw;
+    padding-right: 40vw;
+    padding-left: 20px;
     position: static;
 }
 
@@ -49,7 +51,12 @@
     padding-bottom: 34px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1130px) {
+
+    .navbar {
+        margin: auto;
+    }
+
     .navbar .menu_mobile {
         display: flex;
         flex-direction: column;
