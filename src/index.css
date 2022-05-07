@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,22 +7,6 @@
 
 html, body, #root {
   height: 100vh;
-  background-image: url("https://images.pexels.com/photos/5725575/pexels-photo-5725575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* background-color: rgb(26, 37, 49);  */
+  background-color: rgb(26, 37, 49); 
   color: #DDD; 
-}
-
-@media only screen and (max-width: 1130px) { 
-
-  body {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-  }
-
 }
