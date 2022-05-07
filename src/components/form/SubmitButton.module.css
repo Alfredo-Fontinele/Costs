@@ -1,9 +1,15 @@
 .btn {
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 35px;
     background-color: slateblue;
     color: #FFF;
     font-weight: bold;
-    padding: 17px;
+    padding: 20px;
+    font-size: 15px;
+    width: 250px;
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.5s;
