@@ -2,7 +2,7 @@ import styles from '../styles/Contact.module.css'
 
 function Contact() {
     return (
-        <div>
+        <div className={styles.contact_container}>
             <h1>Contato</h1>
         </div>
     )

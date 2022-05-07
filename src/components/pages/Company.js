@@ -2,7 +2,7 @@ import styles from '../styles/Company.module.css'
 
 function Company() {
     return (
-        <div>
+        <div className={styles.company_container}>
             <h1>Empresa</h1>
         </div>
     )
