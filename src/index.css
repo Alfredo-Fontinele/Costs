@@ -21,7 +21,6 @@ html, body, #root {
 @media only screen and (max-width: 1130px) { 
 
   body {
-    width: 100vw;
     display: flex;
     margin: auto;
     justify-content: center;
